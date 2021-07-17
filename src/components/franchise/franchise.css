@@ -4,16 +4,30 @@
 .franchise{
     padding: 0 0 100px 0;
 }
-.franchise__tittle h1 {}
 
-.header__feedback-btn button {
+.header__feedback-btn a {
+    padding: 20px 20px;
     border-radius: 20px;
-    border: none;
     font-weight: 100;
+    text-decoration: none;
     background-color: #D72B1D;
     height: 50px;
-    width: 195px;
-    font-size: 14px;
+    max-width: 195px;
+    font-size: 20px;
     color: #fff;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+.franchise__navbar-items{
+    margin-top: 5%;
+
+}
+@media (max-width: 838px){
+    .franchise__navbar{
+        flex-wrap: wrap;
+    }
+    .franchise__navbar-items{
+        margin-bottom: 10%;
+        margin-top: 5%;
+
+    }
 }

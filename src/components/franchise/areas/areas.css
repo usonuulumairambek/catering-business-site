@@ -1,18 +1,70 @@
-.areas__almata{
-    margin-top: 100px;
+.areas__almata {
+    margin-top: 80px;
     display: flex;
     justify-content: center;
 }
-.areas__almata-about{
+
+.areas__almata-about {
     max-width: 50%;
 }
-.areas__almata-about h2{
+
+.areas__almata-about h2 {
     font-size: 36px;
 }
-.areas__almata-about h3{
- font-size: 2em;   
+
+.areas__almata-about h3 {
+    font-size: 2em;
 }
-.areas__almata-about p{
+
+.areas__almata-about p {
     font-size: 24px;
     line-height: 43px;
 }
+
+.areas__almata-map img {
+    width: 100%;
+}
+
+@media(max-width: 860px) {
+    .areas__almata-about h2 {
+        font-size: 25px;
+    }
+    .areas__almata-about p {
+        font-size: 20px;
+        line-height: 33px;
+    }
+}
+@media(max-width: 706px) {
+    .areas__almata-about h2 {
+        font-size: 20px;
+    }
+    .areas__almata-about p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .areas__almata-map img {
+        width: 90%;
+    }
+    .areas__almata-map{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+    .areas__almata{
+        flex-direction: column;
+    }
+   
+    .areas__almata-about{
+        padding-left: 4%;
+        max-width: 100%;
+    }
+}
+/* @media(max-width: 570px) {
+    .areas__almata-about h2 {
+        font-size: 15px;
+    }
+    .areas__almata-about p {
+        font-size: 10px;
+        line-height: 20px;
+    }
+} */
