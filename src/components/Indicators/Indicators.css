@@ -1,0 +1,17 @@
+.Indicators__container {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid red;
+}
+
+.benefits__container-info {
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 20px;
+}
+.Indicators__container-info h2{
+    font-size: 45px;
+}
+.Indicators__container-info ul li{
+    font-size: 24px;
+    line-height: 39px;
+}

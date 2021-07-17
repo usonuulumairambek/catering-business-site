@@ -1,0 +1,18 @@
+.areas__almata{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+.areas__almata-about{
+    max-width: 50%;
+}
+.areas__almata-about h2{
+    font-size: 36px;
+}
+.areas__almata-about h3{
+ font-size: 2em;   
+}
+.areas__almata-about p{
+    font-size: 24px;
+    line-height: 43px;
+}

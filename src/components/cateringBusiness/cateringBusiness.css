@@ -1,0 +1,61 @@
+.cateringBusiness {
+    padding: 50px 20px 50px 20px;
+    display: flex;
+    justify-content: flex-end;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(27, 27, 27, 1) 90%);
+}
+
+.cateringBusiness__info-tittle p {
+    font-size: 48px;
+    color: #fff;
+}
+
+.cateringBusiness__wrapper {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.cateringBusiness__info {
+    margin: 100px 0 0 50px;
+    width: 50%;
+}
+.cateringBusiness__info-btn{
+    margin-top: 50px;
+}
+.cateringBusiness__info-btn button {
+    background: #FFFFFF;
+    border-radius: 20px;
+    padding: 18px 30px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 13px;
+    color: #010101;
+}
+
+.cateringBusiness__info-taildoun {
+    margin-top: 30px;
+}
+
+.cateringBusiness__info h1 {
+    font-family: Gotham Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 119.7%;
+    /* or 57px */
+    letter-spacing: 0.005em;
+    color: #FFFFFF;
+}
+
+.cateringBusiness__info-subtittle p {
+    color: #FFFFFF;
+}
+
+.cateringBusiness__slide-items {
+    display: flex;
+}
+
+.cateringBusiness__slide-item {
+    margin: 20px;
+}

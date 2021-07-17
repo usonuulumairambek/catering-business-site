@@ -1,0 +1,16 @@
+.benefits__container-img{
+    position: relative;
+}
+.benefits__container-info{
+    padding: 2%;
+    max-width: 930px;
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    /* bottom: 0;
+    right: 0; */
+}
+.benefits__container-tittle h2{
+    text-align: center;
+    font-size: 45px;
+}
